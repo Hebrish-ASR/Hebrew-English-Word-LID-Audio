@@ -76,8 +76,8 @@ Generalising to other speakers needs more voices, and the dataset card must say 
   the text model, with its annotation policy and taxonomy.
 - [Hebrew-Small-Models-Planning](https://github.com/danielrosehill/Hebrew-Small-Models-Planning):
   the umbrella plan and the prior-art survey.
-- [Parakeet-V2-Personal-Finetune](https://github.com/danielrosehill/Parakeet-V2-Personal-Finetune):
-  where the read-aloud audio is captured.
+- The read-aloud audio is captured with a phone app built for a personal Parakeet
+  ASR fine-tune (private repo), and published to the Hugging Face datasets above.
 
 ## Licence
 
