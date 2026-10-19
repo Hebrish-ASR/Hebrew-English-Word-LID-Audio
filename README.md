@@ -17,9 +17,9 @@ This is the audio sibling of a text model that is already finished.
 
 | Component | Status |
 | --- | --- |
-| **Text classifier:** Hebrew words in Latin letters inside English text | ✅ **Released 2026-10-15.** [`danielrosehill/hebrew-latin-token-classifier`](https://huggingface.co/danielrosehill/hebrew-latin-token-classifier) has span F1 0.941 on unseen terms. Code is in [Hebrew-Latin-Token-Classifier](https://github.com/danielrosehill/Hebrew-Latin-Token-Classifier) |
-| **Text corpus** | ✅ Released: [`danielrosehill/hebrew-latin-code-switching`](https://huggingface.co/datasets/danielrosehill/hebrew-latin-code-switching) |
-| **Audio data:** read-aloud code-switched sentences | ✅ Exists: [`danielrosehill/English-Hebrew-Codeswitching-Sentences`](https://huggingface.co/datasets/danielrosehill/English-Hebrew-Codeswitching-Sentences) (512 phone takes, still growing) and [`danielrosehill/English-Hebrew-Mixed-Sentences`](https://huggingface.co/datasets/danielrosehill/English-Hebrew-Mixed-Sentences) (516 older recordings) |
+| **Text classifier:** Hebrew words in Latin letters inside English text | ✅ **Released 2026-10-15.** [`danielrosehill/hebrew-latin-token-classifier`](https://huggingface.co/danielrosehill/hebrew-latin-token-classifier) has span F1 0.941 on unseen terms. Code is in [Hebrew-Latin-Token-Classifier](https://github.com/Hebrish-ASR/Hebrew-Latin-Token-Classifier) |
+| **Text corpus** | ✅ Released: [`Hebrish/hebrew-latin-code-switching`](https://huggingface.co/datasets/Hebrish/hebrew-latin-code-switching) |
+| **Audio data:** read-aloud code-switched sentences | ✅ Exists: [`danielrosehill/English-Hebrew-Codeswitching-Sentences`](https://huggingface.co/datasets/danielrosehill/English-Hebrew-Codeswitching-Sentences) (512 phone takes, still growing) and [`Hebrish/English-Hebrew-Mixed-Sentences`](https://huggingface.co/datasets/Hebrish/English-Hebrew-Mixed-Sentences) (516 older recordings) |
 | **Word-aligned language labels** for that audio | ⏳ Next. See the plan below |
 | **Audio word-LID model** | ⏳ Planned |
 
@@ -72,7 +72,7 @@ Generalising to other speakers needs more voices, and the dataset card must say 
 
 ## Related
 
-- [Hebrew-Latin-Token-Classifier](https://github.com/danielrosehill/Hebrew-Latin-Token-Classifier):
+- [Hebrew-Latin-Token-Classifier](https://github.com/Hebrish-ASR/Hebrew-Latin-Token-Classifier):
   the text model, with its annotation policy and taxonomy.
 - [Hebrew-Small-Models-Planning](https://github.com/danielrosehill/Hebrew-Small-Models-Planning):
   the umbrella plan and the prior-art survey.
